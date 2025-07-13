@@ -1,0 +1,59 @@
+{
+  "name": "fly-and-money-commands",
+  "version": "1.0.7",
+  "description": "Добавляет команды /fly и /money для клана.",
+  "main": "index.js",
+  "author": "I_Sahorok",
+  "botpanel": {
+    "categories": [
+      "Команды",
+      "Клан",
+      "Утилиты"
+    ],
+    "icon": "hammer",
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": {
+      "parser-keksik": "*"
+    },
+    "settings": {
+      "flySuccessOnMessage": {
+        "type": "string",
+        "label": "Fly: Сообщение 'включен'",
+        "default": "Режим полета для {username} включен."
+      },
+      "flySuccessOffMessage": {
+        "type": "string",
+        "label": "Fly: Сообщение 'выключен'",
+        "default": "Режим полета для {username} выключен."
+      },
+      "moneySuccessMessage": {
+        "type": "string",
+        "label": "Money: Сообщение о выдаче",
+        "default": "На баланс игрока {username} было начислено много денюшек."
+      },
+      "commandCooldownMessage": {
+        "type": "string",
+        "label": "Сообщение о КД",
+        "description": "Сообщение, когда сервер отвечает, что команда на кд. Используйте {timeLeft}.",
+        "default": "Команда на кд. Попробуйте через {timeLeft} сек."
+      },
+      "commandNoPermsMessage": {
+        "type": "string",
+        "label": "Общее: Сообщение 'нет прав'",
+        "description": "Сообщение, когда сервер отвечает, что у бота нету прав на команду.",
+        "default": "У меня нет прав на использование этой команды."
+      },
+      "serverErrorMessage": {
+        "type": "string",
+        "label": "Ошибка ответа сервера",
+        "description": "Когда сервер не отвечает на команду вовремя.",
+        "default": "Сервер не ответил. Попробуйте еще раз."
+      }
+    }
+  }
+}
