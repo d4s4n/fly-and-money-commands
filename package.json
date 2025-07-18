@@ -12,10 +12,7 @@
     ],
     "icon": "hammer",
     "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
+      "mc.mineblaze.net"
     ],
     "dependencies": {
       "parser-keksik": "*"
