@@ -1,6 +1,6 @@
 {
   "name": "fly-and-money-commands",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Добавляет команды /fly и /money для клана.",
   "main": "index.js",
   "author": "I_Sahorok",
@@ -54,3 +54,4 @@
     }
   }
 }
+
